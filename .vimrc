@@ -47,6 +47,7 @@ set shiftwidth=2
 set hlsearch
 set noswapfile
 set backspace=indent,eol,start " MacのDeleteキーの割当処理
+set clipboard+=unnamed " クリップボード共有
 colorscheme molokai
 set t_Co=256
 inoremap <C-e> <End>
