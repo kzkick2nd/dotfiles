@@ -22,6 +22,10 @@ NeoBundle 'terryma/vim-multiple-cursors'
 NeoBundle 'scrooloose/nerdtree'
 " EditorConfigプラグイン
 NeoBundle 'editorconfig/editorconfig-vim'
+" coffeescript
+NeoBundle 'kchmck/vim-coffee-script'
+" slimシンタックス
+NeoBundle "slim-template/vim-slim"
 
 call neobundle#end()
 
@@ -42,6 +46,7 @@ set tabstop=2
 set shiftwidth=2
 set hlsearch
 set noswapfile
+set backspace=indent,eol,start " MacのDeleteキーの割当処理
 colorscheme molokai
 set t_Co=256
 inoremap <C-e> <End>
